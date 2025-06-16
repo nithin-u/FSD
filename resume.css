@@ -1,0 +1,52 @@
+/* Basic Styling */
+body {
+    background-color: #f4f4f4;
+    color: #333;
+    font-family: Arial, sans-serif;
+    font-style: italic; /* Added Italics */
+    font-size: 16px;
+}
+
+/* Heading Styles */
+h1 {
+    color: #007bff;
+    font-size: 2em;
+}
+
+h2 {
+    color: #0056b3;
+    font-size: 1.5em;
+}
+
+/* Container Styling */
+.container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+/* Section Styling */
+.section {
+    margin-bottom: 20px;
+}
+
+/* Pseudo-elements and classes example */
+h1::before { /* Add a before pseudo-element */
+    content: " ";
+    display: block;
+    border-bottom: 2px solid #007bff;
+    width: 50px;
+    margin-bottom: 10px;
+}
+
+.section:hover { /* Hover effect on sections */
+    background-color: #e9ecef;
+}
+
+p:first-of-type { /* Style the first paragraph in each section */
+    font-weight: bold;
+}
+
+/* You can add more styles here for specific elements or sections of your resume */
